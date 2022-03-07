@@ -1,6 +1,6 @@
 SELECT
-    count(distinct b.book_id)
+  count(distinct b.book_id)
 FROM
-    books b
+  books b
 WHERE 
-    b.publication_year < 2000;
+  b.publication_year < 2000;
